@@ -8,7 +8,7 @@ eating breakfast or skip breakfast to meet earlier with her friends?"""
 
 print(start)
 
-shops = ["Pacsun", "American Eagle", "Zara", "Sephora", "Mac", "Aerie", "Primark", "Adidas",]
+shops = ["Pacsun", "American Eagle", "Zara", "Sephora", "Mac", "Aerie", "Primark", "Adidas", "Forever 21"]
 user_input = ""
 
 while user_input != "eat" and user_input != "skip":
@@ -26,7 +26,7 @@ Now, they need to decide which stores to shop in.
 Because they need an hour to eat lunch, and since Amanda has her hair appointment at 1:30 pm,
 they can only go to a few shops.
 They will spend 30 minutes at each shop, so Amanda must pick 3 to go to.
-Out of Pacsun, American Eagle, Zara, Sephora, Mac, Aerie, Primark, and Adidas,
+Out of Pacsun, American Eagle, Zara, Sephora, Mac, Aerie, Primark, Adidas, and Forever 21
 what three shops should Amanda go to?
     """)
     def onList1(shop_name, shopsList):
@@ -52,7 +52,7 @@ elif user_input == "skip":
     Amanda skips breakfast entirely and heads out for an early start.
     She meets with her friends in Soho at 10:00 am.
     She will spend 30 minutes at each shop, so she can go to 5 shops in total before lunch.
-    Out of Pacsun, American Eagle, Zara, Sephora, Mac, Aerie, Primark, and Adidas,
+    Out of Pacsun, American Eagle, Zara, Sephora, Mac, Aerie, Primark, Adidas, and Forever 21,
     what five shops should Amanda go to?""")
     def onList(shop_name, shopsList):
         isValid = False
